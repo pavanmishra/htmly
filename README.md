@@ -1,2 +1,2 @@
-# htmly
-Elm inspired html generation for python
+# HTMLy
+Elm inspired HTML generator for Python.
