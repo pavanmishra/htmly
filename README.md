@@ -12,7 +12,7 @@ Elm inspired HTML generator for Python.
     >>> render(hr([]))
     '<hr />'
 
-## Tags having contents.
+## Tags having content.
 
     >>> render(div([], [text('content')]))
     '<div >content</div>'
@@ -24,7 +24,7 @@ Elm inspired HTML generator for Python.
     >>> render(div([lang('tr'), id_('content'), class_('bar'), attribute('data-value', 'foo')], []))
     '<div lang="tr" id="content" class="bar" data-value="foo"></div>'
 
-## Tags with attribute and contents.
+## Tags with attributes and content.
 
     >>> render(div([lang('tr')], [text('content')]))
     '<div lang="tr">content</div>'
